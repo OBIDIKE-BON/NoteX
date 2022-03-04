@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph_main"
+    app:startDestination="@id/nav_action_notes">
+    <fragment
+        android:id="@+id/nav_action_notes"
+        android:name="com.stackfloat.notex.NoteListFragment"
+        android:label="Notes"
+        tools:layout="@layout/note_list_fragment">
+
+        <action
+            android:id="@+id/navigate_to_edit_note"
+            app:destination="@id/edit_note" />
+
+        <action
+            android:id="@+id/navigate_to_settings"
+            app:destination="@id/action_settings" />
+    </fragment>
+    <fragment
+        android:id="@+id/edit_note"
+        android:name="com.stackfloat.notex.EditNoteFragment"
+        android:label="Edit Note"
+        tools:layout="@layout/edit_note_fragment">
+
+        <action
+            android:id="@+id/navigate_to_note_list"
+            app:destination="@id/nav_action_notes" />
+
+        <argument
+            android:name="note_id"
+            app:argType="integer"
+            android:defaultValue="-1"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/action_settings"
+        android:name="com.stackfloat.notex.AppSettingsFragment"
+        android:label="Settings">
+
+    </fragment>
+
+
+</navigation>

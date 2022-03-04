@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_200">#2A3875</color>
+    <color name="blue_500">#0D1543</color>
+    <color name="blue_700">#030B39</color>
+    <color name="black_200">#1B1B1B</color>
+    <color name="black_500">#111111</color>
+    <color name="black_700">#070707</color>
+    <color name="purple_200">#835FFF</color>
+    <color name="purple_500">#6F61FF</color>
+    <color name="purple_700">#33255F</color>
+    <color name="black">#111111</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+    <color name="primaryColor">#3c4043</color>
+    <color name="primaryLightColor">#666b6e</color>
+    <color name="primaryDarkColor">#161a1c</color>
+    <color name="secondaryColor">#f05a28</color>
+    <color name="secondaryLightColor">#ff8c55</color>
+    <color name="secondaryDarkColor">#b62500</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#fafafa</color>
+
+<!--    <color name="primaryColor">#2f2f2f</color>-->
+<!--    <color name="primaryLightColor">#585858</color>-->
+<!--    <color name="primaryDarkColor">#050505</color>-->
+<!--    <color name="secondaryColor">#f05a28</color>-->
+<!--    <color name="secondaryLightColor">#ff8c55</color>-->
+<!--    <color name="secondaryDarkColor">#b62500</color>-->
+<!--    <color name="primaryTextColor">#ffffff</color>-->
+<!--    <color name="secondaryTextColor">#000000</color>-->
+    <color name="surfaceColorDark">#222222</color>
+    <color name="Translucent">#0Dffffff</color>
+    <color name="Transparent">#00FFFFFF</color>
+</resources>

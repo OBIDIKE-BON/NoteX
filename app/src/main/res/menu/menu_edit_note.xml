@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.MainActivity">
+    <item
+        android:id="@+id/action_previous"
+        android:icon="@drawable/ic_baseline_skip_previous_24"
+        app:iconTint="@drawable/disabled_button_color"
+        android:orderInCategory="100"
+        android:title="@string/action_previous"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/action_next"
+        android:icon="@drawable/ic_baseline_skip_next_24"
+        app:iconTint="@drawable/disabled_button_color"
+        android:orderInCategory="200"
+        android:title="@string/action_next"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/action_discard"
+        android:icon="@drawable/ic_baseline_cancel_presentation_24"
+        app:iconTint="@drawable/disabled_button_color"
+        android:orderInCategory="300"
+        android:title="@string/action_discard"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/action_send_mail"
+        android:orderInCategory="400"
+        android:title="@string/action_send_mail"
+        app:showAsAction="ifRoom|withText" />
+
+</menu>

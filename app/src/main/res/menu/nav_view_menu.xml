@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_action_notes"
+            android:title="@string/nav_action_notes_title"
+            android:icon="@drawable/ic_nav_action_notes"/>
+<!--        <item-->
+<!--            android:id="@+id/nav_action_todo"-->
+<!--            android:title="@string/nav_action_title_todo"-->
+<!--            android:icon="@drawable/ic_nav_action_todo" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_action_shopping"-->
+<!--            android:title="@string/nav_action_title_shopping"-->
+<!--            android:icon="@drawable/ic_nav_action_shopping" />-->
+    </group>
+</menu>

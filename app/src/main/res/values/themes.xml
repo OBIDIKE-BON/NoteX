@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NoteX.Dark" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/primaryTextColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/secondaryTextColor</item>
+        <!-- Status bar color. -->
+         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="textInputStyle">@style/Widget.App.TextInputLayout</item>
+        <item name="cardViewStyle">@style/Theme.NoteX.CardView</item>
+<!--        <item name="actionOverflowButtonStyle">@style/actionOverflowButtonStyle</item>-->
+    </style>
+
+    <style name="Widget.App.TextInputLayout" parent="Widget.Design.TextInputLayout"/>
+
+    <style name="Theme.NoteX.Dark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.NoteX.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" >
+<!--        <item name="itemIconTint">@color/secondaryColor</item>-->
+    </style>
+
+    <style name="Theme.NoteX.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <style name="pluralsight_bold" parent="@style/TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.NavigationView" parent="Widget.MaterialComponents.NavigationView" >
+        <item name="itemIconTint">@drawable/nav_menu_item_tint</item>
+        <item name="itemTextColor">@drawable/nav_menu_item_tint</item>
+        <item name="itemShapeAppearance">@style/Nav.ItemShapeAppearance</item>
+<!--        <item name="android:background">?attr/colorPrimary</item>-->
+        <item name="itemShapeFillColor">@drawable/nav_item_bg_color</item>
+    </style>
+
+    <style name="Nav.ItemShapeAppearance" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSizeTopRight">20dp</item>
+        <item name="cornerSizeBottomRight">20dp</item>
+    </style>
+
+    <style name="Theme.NoteX.CardView" parent="Widget.MaterialComponents.CardView"
+        >
+
+    </style>
+</resources>
